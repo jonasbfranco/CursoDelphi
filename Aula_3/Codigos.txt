@@ -1,0 +1,23 @@
+// Site para programar.
+https://www.onlinegdb.com/
+
+
+// Codigo programa de logica
+
+program Teste;
+var
+ a, b:integer;
+begin
+  writeln('Digite um número para 7');
+  readln(a);
+  writeln('Digite o número para 6');
+  readln(b);
+ if (a > b) then { Se 7 é maior que 6 então }
+    writeln('7 é maior que 6')
+    else { Senão… }
+ if (a < b) then
+    writeln('6 é maior que 7')
+    else
+  writeln('6 é igual à 7');
+ end.
+
