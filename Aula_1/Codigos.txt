@@ -3,7 +3,6 @@ https://www.onlinegdb.com/
 
 
 
-
 // Primeira logica
 
 program myName;
