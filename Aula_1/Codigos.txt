@@ -1,0 +1,45 @@
+// Site para programar.
+https://www.onlinegdb.com/
+
+
+
+
+// Primeira logica
+
+program myName;
+var meuNome : String;
+begin
+	meuNome := 'Jonas B. Franco';
+end.
+
+
+
+
+// Segunda Logica
+program mynName;
+var MeuNome : String;
+var minhaIdade : Integer;
+var valorBitcoin : Real;
+var vouComprar : Boolean;
+begin
+    // Valores das variaveis
+    meuNome := 'Jonas B. Franco';
+    minhaIdade := 30;
+    valorBitcoin := 146.064;
+    vouComprar := true;
+    
+    // Retorno das variaveis
+    writeln('');
+    write('Meu nome é: ');
+    writeln(meuNome);
+    
+    write('Eu tenho ');
+    write(minhaIdade);
+    writeln(' anos');
+    
+    write('O preço do Bitcoin está: ');
+    writeln(valorBitcoin);
+    
+    write('Será que devo comprar ? ');
+    writeln(vouComprar);
+end.
